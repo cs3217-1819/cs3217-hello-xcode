@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+- (IBAction)myButtonClicked:(id)sender;
 
 @end
 
@@ -24,8 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)handleMyButtonClick:(id)sender {
+- (IBAction)myButtonClicked:(id)sender {
     
-    self.myLabel.text = @"Hello, World!";
+    self.myLabel.text = @"Hello, world!";
 }
 @end

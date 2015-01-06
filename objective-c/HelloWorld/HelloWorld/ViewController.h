@@ -10,8 +10,6 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
-- (IBAction)handleMyButtonClick:(id)sender;
 @end
 

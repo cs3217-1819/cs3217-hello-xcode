@@ -35,7 +35,7 @@
                                     <rect key="frame" x="344" y="410" width="112" height="45"/>
                                 </variation>
                                 <connections>
-                                    <action selector="handleMyButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5R-MQ-yny"/>
+                                    <action selector="myButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TWH-iK-0LM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,7 +52,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="myLabel" destination="9Cs-0R-1HV" id="H7f-bv-OCh"/>
+                        <outlet property="myLabel" destination="9Cs-0R-1HV" id="E6g-DA-Tuh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
