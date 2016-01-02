@@ -2,7 +2,7 @@ import UIKit
 import XCPlayground
 
 /*:
-## Make a Hello iPad label
+## Make a "Hello iPad" label
 ----
 * First, we create a UILabel with a specific frame
 */
@@ -13,11 +13,11 @@ var myLabel = UILabel(frame: CGRectMake(0, 0, 140, 40))
 */
 myLabel.backgroundColor = UIColor.lightGrayColor()
 /*:
-* By clicking the **Quick Look** or **Show Result** icon on the right, you can see what the label currently looks like
+* By clicking the **Quick Look** (a.k.a. **Show Result**) icon on the right, you can see what the label currently looks like
 ![Instruction Image](image1.png)
 */
 
-//:* Next, we set the text of the label to Hello iPad
+//:* Next, we set the text of the label to "Hello iPad"
 myLabel.text = "Hello iPad"
 
 //:* We can also change the attributes such as **font**, **text color**, **text alignment**, etc.
@@ -37,7 +37,7 @@ myLabel.layer.cornerRadius = CORNER_RADIUS
 myLabel
 
 /*:
-## Add a subview to a UIView
+## Add a subview to a UIView instance
 ----
 * Create a UIView with specific frame
 */
