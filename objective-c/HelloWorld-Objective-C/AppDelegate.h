@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  HelloWorld
+//  HelloWorld-Objective-C
 //
-//  Created by Cui Wei on 7/1/15.
-//  Copyright (c) 2015 NUS CS3217. All rights reserved.
+//  Created by Jinghan Wang on 17/12/16.
+//  Copyright © 2016 nus.cs3217.a0123456. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
