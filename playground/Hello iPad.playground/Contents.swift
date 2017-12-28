@@ -6,7 +6,7 @@ import PlaygroundSupport
 ----
 * First, we create a UILabel with a specific frame
 */
-var myLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 140, height: 40))
+let myLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 140, height: 40))
 
 /*:
 * Then we change the background color of the label to light gray
@@ -29,7 +29,7 @@ myLabel.textAlignment = NSTextAlignment.center
 * Moreover, we can add rounded corners
      * Using keyword **let** to define a constant
 */
-let CORNER_RADIUS:CGFloat = 10.0
+let CORNER_RADIUS: CGFloat = 10.0
 myLabel.layer.masksToBounds = true
 myLabel.layer.cornerRadius = CORNER_RADIUS
 
